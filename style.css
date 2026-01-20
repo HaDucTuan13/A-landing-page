@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
-    padding: 0px 64px;
     font-size: 18px;
 }
 
@@ -18,13 +17,21 @@ body {
     background-color: #1F2937;
     color: white;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
 .left-header {
     font-size: 24px;
     font-weight:900;
+    color: #F9FAF8;
+}
+
+.right-header {
+    font-size: 1em;
+    color: #E5E7EB;
+    display: flex;
+    gap: 32px;
 }
 
 .banner {
@@ -33,20 +40,18 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    height: 528px;
 }
 
 #sign-up-button1{
     background-color: #3882F6;
     color: white;
-
 }
 
 button {
     border: none;
     border-radius: 8px;
     padding: 8px 16px;
-    margin-left: 65px;
 }
 
 img {
@@ -66,4 +71,35 @@ img {
     font-size: 48px;
     color: #F9FAF8;
     font-weight: 900;
+}
+
+.information {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 52px;
+    align-items: center;
+    justify-content: center;
+    height: 600px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 52px;
+}
+.info img {
+    height: 100px;
+    width: auto;
+}
+
+.info {
+    max-width: 250px;
+    text-align: center;
+}
+
+#title {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
 }
